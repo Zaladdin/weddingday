@@ -67,34 +67,42 @@
                     dateValue: "09.08.2026",
                     ceremonyLabel: "церемония",
                     ceremonyValue: "14:30&nbsp;&nbsp;&nbsp;Eshgala<br>Mərdakan, Dərya Dadaşov küç.",
+                    ceremonyNote: "С 14:30 начинаем встречать гостей в Eshgala. Просим приехать немного заранее, чтобы спокойно разместиться, поприветствовать друг друга и без спешки подготовиться к началу церемонии в 15:00.",
                     receptionLabel: "вечер",
                     receptionValue: "18:00&nbsp;&nbsp;&nbsp;Liora Luxury Hall<br>Binəqədi, Məsud Davudoğlu 17"
                 },
                 timeline: {
                     title: "Тайминг дня",
+                    intro: "Ниже собрали ориентировочный план нашего свадебного дня, чтобы вам было удобно сориентироваться и заранее понимать ход праздника.",
                     meet: {
                         time: "14:30",
-                        label: "Сбор гостей"
+                        label: "Сбор гостей",
+                        description: "Встречаем гостей, помогаем с размещением и даём время спокойно настроиться на праздник."
                     },
                     ceremony: {
                         time: "15:00",
-                        label: "Церемония"
+                        label: "Церемония",
+                        description: "Официальная часть дня: тёплые слова, клятвы, кольца и момент, который мы очень хотим разделить с вами."
                     },
                     cocktails: {
-                        time: "",
-                        label: "Фуршет"
+                        time: "15:40",
+                        label: "Фуршет",
+                        description: "После церемонии будет время на лёгкий фуршет, поздравления, общение и первые тосты."
                     },
                     photos: {
-                        time: "",
-                        label: "Фотографии"
+                        time: "16:20",
+                        label: "Фотографии",
+                        description: "Запланируем несколько общих и семейных кадров, а затем останется время на живые снимки с гостями."
                     },
                     dinner: {
                         time: "18:00",
-                        label: "Ресторан"
+                        label: "Вечерняя программа",
+                        description: "Продолжим праздник в Liora Luxury Hall: ужин, музыка, танцы и основная часть вечернего торжества."
                     },
                     farewell: {
-                        time: "",
-                        label: "Окончание праздника"
+                        time: "23:00",
+                        label: "Окончание праздника",
+                        description: "Ближе к завершению вечера соберём финальные объятия, тёплые слова и проводим этот день с благодарностью."
                     }
                 },
                 directions: {
@@ -178,34 +186,42 @@
                     dateValue: "09.08.2026",
                     ceremonyLabel: "mərasim",
                     ceremonyValue: "14:30&nbsp;&nbsp;&nbsp;Eshgala<br>Mərdakan, Dərya Dadaşov küç.",
+                    ceremonyNote: "Saat 14:30-dan etibarən qonaqları Eshgala-da qarşılamağa başlayırıq. Rahat yerləşmək, bir-birinizi salamlamaq və saat 15:00-da başlayacaq mərasimə tələsmədən hazırlaşmaq üçün bir qədər tez gəlməyinizi xahiş edirik.",
                     receptionLabel: "axşam",
                     receptionValue: "18:00&nbsp;&nbsp;&nbsp;Liora Luxury Hall<br>Binəqədi, Məsud Davudoğlu 17"
                 },
                 timeline: {
                     title: "Günün planı",
+                    intro: "Toy günümüzün təxmini planını aşağıda topladıq ki, günün gedişatını əvvəlcədən rahat şəkildə görə biləsiniz.",
                     meet: {
                         time: "14:30",
-                        label: "Qonaqların gəlişi"
+                        label: "Qonaqların gəlişi",
+                        description: "Qonaqları qarşılayır, yerləşməyə kömək edir və hər kəsə bayram ab-havasına rahat uyğunlaşmaq üçün vaxt veririk."
                     },
                     ceremony: {
                         time: "15:00",
-                        label: "Mərasim"
+                        label: "Mərasim",
+                        description: "Günün rəsmi hissəsi: səmimi sözlər, andlar, üzüklər və sizinlə bölüşmək istədiyimiz ən xüsusi an."
                     },
                     cocktails: {
-                        time: "",
-                        label: "Furşet"
+                        time: "15:40",
+                        label: "Furşet",
+                        description: "Mərasimdən sonra yüngül furşet, təbriklər, ünsiyyət və ilk xoş tostlar üçün vaxt olacaq."
                     },
                     photos: {
-                        time: "",
-                        label: "Şəkillər"
+                        time: "16:20",
+                        label: "Şəkillər",
+                        description: "Bir neçə ümumi və ailə şəkli çəkdirəcəyik, daha sonra isə qonaqlarla səmimi kadrlara vaxt qalacaq."
                     },
                     dinner: {
                         time: "18:00",
-                        label: "Restoran"
+                        label: "Axşam proqramı",
+                        description: "Bayramı Liora Luxury Hall-da davam etdirəcəyik: şam yeməyi, musiqi, rəqs və gecənin əsas proqramı."
                     },
                     farewell: {
-                        time: "",
-                        label: "Bayramın sonu"
+                        time: "23:00",
+                        label: "Bayramın sonu",
+                        description: "Gecənin sonuna yaxın son qucaqlaşmalar, səmimi sözlər və bu günü minnətdarlıqla yola salacağıq."
                     }
                 },
                 directions: {

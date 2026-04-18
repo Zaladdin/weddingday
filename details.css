@@ -165,6 +165,14 @@ img {
     margin-top: 62px;
 }
 
+.details-section-intro {
+    max-width: 318px;
+    margin: 0 auto 24px;
+    font-size: 17px;
+    line-height: 1.5;
+    color: var(--details-soft);
+}
+
 .details-section-title {
     font-family: "cursivename", serif !important;
     font-style: normal !important;
@@ -213,6 +221,13 @@ img {
     color: #fffdf8;
 }
 
+.details-card__note {
+    margin-top: 12px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: var(--details-soft);
+}
+
 .timeline-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -225,7 +240,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 150px;
+    min-height: 238px;
 }
 
 .timeline-item__icon-wrap {
@@ -271,6 +286,15 @@ img {
     max-width: 120px;
     font-size: 15px;
     color: #fff8f1;
+}
+
+.timeline-item__description {
+    width: 100%;
+    max-width: 138px;
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 1.45;
+    color: var(--details-soft);
 }
 
 .details-feature-icon {
@@ -411,7 +435,7 @@ img {
     }
 
     .timeline-item {
-        min-height: 142px;
+        min-height: 230px;
     }
 
     .details-hero {
