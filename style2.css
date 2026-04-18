@@ -353,7 +353,7 @@ section {
 .seal{
     position:absolute;
     bottom:28%;
-    left:50%;
+    left:calc(50% - 6px);
     transform:translateX(-50%);
     width:90px;
     height:90px;
@@ -1331,7 +1331,7 @@ svg {
     width:72px;
     height:72px;
     bottom:27%;
-    left:50%;
+    left:calc(50% - 6px);
     transform:translateX(-50%);
   }
 
@@ -2201,7 +2201,7 @@ svg {
   }
 
   .seal{
-    left:50%;
+    left:calc(50% - 6px);
     bottom:27%;
     width:72px;
     height:72px;
