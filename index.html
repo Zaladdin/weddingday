@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Z &amp; E</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body data-page="home">
+
+<div class="language-switcher" aria-label="Language switcher">
+    <button class="language-switcher__button" type="button" data-lang="ru">RU</button>
+    <button class="language-switcher__button" type="button" data-lang="az">AZ</button>
+</div>
+
+<div class="wrapper" id="screen">
+
+    <!-- we’re getting married -->
+    <div class="subtitle" data-i18n="home.subtitle">свадебное приглашение</div>
+
+    <!-- Names -->
+    <div class="names">Zaladdin &amp; Emiliya</div>
+
+    <!-- Envelope + seal -->
+     <a href="page-2.html" class="envelope-link" id="openInvitation" style="text-decoration:none; color:inherit;">
+        <div class="envelope-box">
+            <img src="envelope.png" class="envelope" alt="Envelope" data-i18n-alt="home.envelopeAlt">
+
+            <div class="seal">
+                <img src="seal.png" alt="seal">
+                <span class="seal-initials">ZE</span>
+            </div>
+        </div>
+    </a>
+
+    <!-- Hint -->
+    <div class="hint" data-i18n="home.hint">нажмите на конверт, чтобы открыть</div>
+
+</div>
+
+<script src="js/script.js"></script>
+<script src="js/i18n.js"></script>
+</body>
+</html>
